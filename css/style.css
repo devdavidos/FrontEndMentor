@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card h2 {
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.8);
+
+    margin: 30px 0 15px 0;
+    text-align: center;
+}
+
+.card p {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    height: 84vh;
+    margin-top: 10px;
+
+    top: 50%;
+    left: 50%;
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+
+    border-radius: 20px;
+    box-shadow: 1px 10px 20px 0 #cecece;
+
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 375px;
+        min-height: 92vh;
+
+    }
+
+    .attribution {
+        visibility: hidden;
+    }
+}
+
+.choose-plan img {
+    padding: 5px 10px
+}
+
+.choose-plan h3 {
+    font-size: 14px;
+    font-weight: 900;
+
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.choose-plan span {
+    color: rgba(0,0,0,0.5);
+}
+
+.choose-plan a {
+    position: absolute;
+    top: 380px;
+    left: 280px;
+}
+
+.choose-plan {
+    display: flex;
+    height: 70px;
+    width: 85%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    background-color: hsl(225, 100%, 98%);
+}
+
+.btn-payment {
+    color: #fff;
+    font-weight: 700;
+    width: 300px;
+    height: 40px;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: hsl(245, 76%, 53%);
+    display: block;
+    box-shadow: 4px 10px 30px hsl(225, 100%, 94%);
+}
+
+.btn-cancel {
+    color:hsl(224, 23%, 55%);
+    font-weight: 900;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.btn-cancel:hover {
+    color:rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+}
+
+.attribution { 
+    margin-top: 15px; 
+    font-size: 15px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
